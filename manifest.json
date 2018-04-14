@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "KeepMyTabs",
+  "name": "SaveMyTabs",
   "version": "1.0",
 
   "description": "Allows you to keep tabs after restarting",
@@ -13,7 +13,7 @@
 
   "browser_action": {
     "default_icon": "icons/icon.png",
-    "default_title": "KeepMyTabs",
+    "default_title": "SaveMyTabs",
     "default_popup": "popups/enabledisable.html"
   },
 

@@ -1,5 +1,5 @@
 
-var button = document.getElementById("keeptabs");
+var button = document.getElementById("savetabs");
 
 // Changes "enabled" if button is clikced
 button.onclick = function(event) {
