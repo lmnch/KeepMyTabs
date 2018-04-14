@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "KeepMyTabs",
+  "version": "1.0",
+
+  "description": "Allows you to keep tabs after restarting",
+
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "KeepMyTabs",
+    "default_popup": "popups/enabledisable.html"
+  },
+
+  "background": {
+    "scripts": ["background_scripts/opentabs.js"]
+  }
+}
